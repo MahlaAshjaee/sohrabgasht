@@ -12,19 +12,14 @@ const props = defineProps({
   ext: { type: String, default: 'svg' },
 })
 
-const basePath = '/src/assets/img/'
+const basePath = new URL('@/assets/img/', import.meta.url)
 
 const resolvedSrc = computed(() => {
   if (!props.src) return ''
 
   const val = String(props.src)
 
-  if (
-    val.startsWith('http') ||
-    val.startsWith('/src/') ||
-    val.startsWith('/assets/') ||
-    val.includes('blob:')
-  ) {
+  if (val.startsWith('http') || val.startsWith('/')) {
     return val
   }
 
