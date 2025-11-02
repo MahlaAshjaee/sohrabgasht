@@ -1,0 +1,33 @@
+{
+  "name": "app-sohrabgasht",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "persian-date": "^1.1.0",
+    "pinia": "^3.0.3",
+    "swiper": "^11.2.10",
+    "vue": "^3.5.22",
+    "vue-router": "^4.5.1",
+    "vue3-persian-datetime-picker": "^1.2.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.31",
+    "prettier": "3.6.2",
+    "tailwindcss": "^3.4.14",
+    "vite": "^7.1.7",
+    "vite-plugin-vue-devtools": "^8.0.2"
+  }
+}
