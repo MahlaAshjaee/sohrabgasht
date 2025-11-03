@@ -46,7 +46,6 @@
 import DocumentCard from '@/components/service/myDocument/DocumentCard.vue'
 import { ref, computed, onMounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-
 const route = useRoute()
 const router = useRouter()
 
@@ -71,8 +70,8 @@ const documentsList = ref([
     key: 'national',
     title: 'کارت ملی',
     status: 'underReview',
-    front: new URL('../assets/img/IDCard.svg', import.meta.url).href,
-    back: new URL('../assets/img/IDCard1.svg', import.meta.url).href,
+    front: new URL('../../../assets/img/IDCard.svg', import.meta.url).href,
+    back: new URL('../../../assets/img/IDCard1.svg', import.meta.url).href,
     date: '1404/07/01',
     message: '',
   },
@@ -80,7 +79,7 @@ const documentsList = ref([
     key: 'birth',
     title: 'شناسنامه',
     status: 'rejected',
-    front: new URL('../assets/img/birthCertificate.svg', import.meta.url).href,
+    front: new URL('../../../assets/img/birthCertificate.svg', import.meta.url).href,
     back: '',
     date: '1404/08/10',
     message: 'تصویر واضح نیست، لطفاً مجدد آپلود کنید.',
@@ -98,8 +97,8 @@ const documentsList = ref([
     key: 'license',
     title: 'گواهینامه',
     status: 'expired',
-    front: new URL('../assets/img/birthCertificate.svg', import.meta.url).href,
-    back: new URL('../assets/img/birthCertificate.svg', import.meta.url).href,
+    front: new URL('../../../assets/img/birthCertificate.svg', import.meta.url).href,
+    back: new URL('../../../assets/img/birthCertificate.svg', import.meta.url).href,
     date: '1404/06/20',
     message: 'مدرک منقضی شده است، لطفاً مجدد بارگذاری کنید.',
   },
@@ -107,7 +106,7 @@ const documentsList = ref([
     key: 'insurance',
     title: 'بیمه شخص ثالث',
     status: 'warning',
-    front: new URL('../assets/img/birthCertificate.svg', import.meta.url).href,
+    front: new URL('../../../assets/img/birthCertificate.svg', import.meta.url).href,
     back: '',
     date: '1404/05/10',
     message: 'تاریخ بیمه شخص ثالث شما به پایان رسیده است.',
@@ -116,7 +115,7 @@ const documentsList = ref([
     key: 'technical',
     title: 'معاینه فنی',
     status: 'rejected',
-    front: new URL('../assets/img/birthCertificate.svg', import.meta.url).href,
+    front: new URL('../../../assets/img/birthCertificate.svg', import.meta.url).href,
     back: '',
     date: '1404/08/01',
     message: 'تصویر ارسالی واضح نیست.',
