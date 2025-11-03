@@ -24,7 +24,7 @@ const resolvedSrc = computed(() => {
   }
 
   try {
-    return new URL(`../assets/img/${val}.${props.ext}`, import.meta.url).href
+    return new URL(`../../assets/img/${val}.${props.ext}`, import.meta.url).href
   } catch {
     console.warn(`[BaseImage] File not found: ${props.src}.${props.ext}`)
     return ''
