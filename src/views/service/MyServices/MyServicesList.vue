@@ -33,7 +33,7 @@ import { ref, onMounted } from 'vue'
 import EmptyState from '@/components/service/EmptyState.vue'
 import ServiceCard from '@/components/service/myServices/ServiceCard.vue'
 
-import Maps from '@/assets/img/Maps.svg'
+import Maps from '../../../assets/img/Maps.svg'
 
 const loading = ref(true)
 const services = ref([])

@@ -38,8 +38,8 @@ const props = defineProps({
   visible: { type: Boolean, default: false },
 })
 
-const successIcon = new URL('@/assets/img/success.svg', import.meta.url).href
-const errorIcon = new URL('@/assets/img/error.svg', import.meta.url).href
+const successIcon = new URL('../assets/img/success.svg', import.meta.url).href
+const errorIcon = new URL('../assets/img/error.svg', import.meta.url).href
 
 const emit = defineEmits(['close'])
 const closeDialog = () => emit('close')

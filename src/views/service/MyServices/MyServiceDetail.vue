@@ -49,12 +49,12 @@
 
 <script setup>
 import { ref } from 'vue'
-import Maps from '@/assets/img/Maps.svg'
+import Maps from '../../../assets/img/Maps.svg'
 import { useRoute } from 'vue-router'
 import BaseButton from '@/components/common/BaseButton.vue'
 import StationsSheet from '@/components/service/myServices/StationsSheet.vue'
 import ServiceInfoSection from '@/components/service/myServices/ServiceInfoSection.vue'
-import BaseIcon from '@/components/common/BaseIcon.vue'
+import BaseIcon from '../../../components/common/BaseIcon.vue'
 
 const route = useRoute()
 const showStations = ref(false)

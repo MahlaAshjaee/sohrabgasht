@@ -6,7 +6,7 @@
 </template>
 
 <script setup>
-import BaseIcon from '@/components/common/BaseIcon.vue'
+import BaseIcon from '../../../components/common/BaseIcon.vue'
 import { onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 

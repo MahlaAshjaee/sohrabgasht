@@ -9,7 +9,7 @@
 </template>
 
 <script setup>
-import BaseIcon from '@/components/common/BaseIcon.vue'
+import BaseIcon from '../common/BaseIcon.vue'
 
 const props = defineProps({
   message: {

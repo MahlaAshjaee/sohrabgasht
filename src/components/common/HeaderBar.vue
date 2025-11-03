@@ -17,7 +17,7 @@
 </template>
 
 <script setup>
-import BaseIcon from './BaseIcon.vue'
+import BaseIcon from './BaseField.vue'
 
 defineProps({
   title: String,

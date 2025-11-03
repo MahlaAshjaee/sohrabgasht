@@ -30,7 +30,7 @@
 </template>
 
 <script setup>
-import BaseIcon from '@/components/common/BaseIcon.vue'
+import BaseIcon from '../../../components/common/BaseIcon.vue'
 import { computed, watch, onMounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 

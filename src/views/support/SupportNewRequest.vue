@@ -59,7 +59,7 @@ import { useTickets } from '@/stores/useTickets'
 import { useRouter } from 'vue-router'
 import BaseField from '@/components/common/BaseField.vue'
 import BaseButton from '@/components/common/BaseButton.vue'
-import BaseIcon from '@/components/common/BaseIcon.vue'
+import BaseIcon from '../../components/common/BaseIcon.vue'
 const router = useRouter()
 const { addTicket } = useTickets()
 const form = ref({

@@ -12,7 +12,7 @@ const props = defineProps({
   ext: { type: String, default: 'svg' },
 })
 
-const basePath = new URL('@/assets/img/', import.meta.url)
+// const basePath = new URL('../assets/img/', import.meta.url)
 
 const resolvedSrc = computed(() => {
   if (!props.src) return ''
@@ -24,7 +24,7 @@ const resolvedSrc = computed(() => {
   }
 
   try {
-    return new URL(`${basePath}${props.src}.${props.ext}`, import.meta.url).href
+    return new URL(`../assets/img/${val}.${props.ext}`, import.meta.url).href
   } catch {
     console.warn(`[BaseImage] File not found: ${props.src}.${props.ext}`)
     return ''

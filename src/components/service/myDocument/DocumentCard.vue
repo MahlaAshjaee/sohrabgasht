@@ -51,7 +51,7 @@
 
 <script setup>
 import BaseButton from '@/components/common/BaseButton.vue'
-import BaseIcon from '@/components/common/BaseIcon.vue'
+import BaseIcon from '../../common/BaseIcon.vue'
 import DocumentDropzone from '@/components/service/myDocument/DocumentDropzone.vue'
 import { computed } from 'vue'
 

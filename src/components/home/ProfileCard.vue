@@ -3,7 +3,7 @@
     class="bg-white rounded-xl shadow-md p-4 space-y-2 relative z-10 mt-10 border-2 border-gray-100"
   >
     <div class="flex items-center gap-3">
-      <BaseIcon :src="user.avatar" alt="prifil" />
+      <BaseIcon :src="user.avatar" alt="profile" />
       <div class="flex flex-col space-y-4">
         <h2 class="font-bold text-gray-950 text-base">{{ user.name }}</h2>
         <p class="text-sm font-medium text-gray-600">{{ user.phone }}</p>

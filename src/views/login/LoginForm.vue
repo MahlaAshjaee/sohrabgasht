@@ -53,7 +53,7 @@ import BrandLogo from '@/components/login/BrandLogo.vue'
 import BaseField from '@/components/common/BaseField.vue'
 import BaseButton from '@/components/common/BaseButton.vue'
 import PageTitle from '@/components/login/PageTitle.vue'
-import BaseIcon from '@/components/common/BaseIcon.vue'
+import BaseIcon from '../../components/common/BaseIcon.vue'
 
 const auth = useAuthStore()
 const router = useRouter()

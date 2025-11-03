@@ -15,9 +15,9 @@
 
 <script setup>
 import { watch, reactive } from 'vue'
-import avatarImg from '@/assets/img/avatar.svg'
-import BaseField from '@/components/common/BaseField.vue'
-import BaseIcon from '@/components/common/BaseIcon.vue'
+import avatarImg from '../../assets/img/avatar.svg'
+import BaseField from '../common/BaseField.vue'
+import BaseIcon from '../common/BaseIcon.vue'
 
 const props = defineProps({ modelValue: Object })
 const emits = defineEmits(['update:modelValue'])

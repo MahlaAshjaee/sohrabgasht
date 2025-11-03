@@ -70,7 +70,7 @@
 </template>
 
 <script setup>
-import BaseIcon from '@/components/common/BaseIcon.vue'
+import BaseIcon from '../../components/common/BaseIcon.vue'
 import HeaderBar from '@/components/common/HeaderBar.vue'
 import { useTickets } from '@/stores/useTickets'
 import { computed, ref } from 'vue'

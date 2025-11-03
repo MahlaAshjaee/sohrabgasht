@@ -18,7 +18,9 @@
 </template>
 
 <script setup>
-import BaseIcon from '@/components/common/BaseIcon.vue'
+import BaseIcon from '../common/BaseIcon.vue';
+
+
 
 defineProps({
   title: String,

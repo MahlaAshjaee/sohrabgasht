@@ -33,7 +33,7 @@
 </template>
 
 <script setup>
-import BaseIcon from '@/components/common/BaseIcon.vue';
+import BaseIcon from '../../common/BaseIcon.vue';
 import EmptyState from '../EmptyState.vue'
 import ServiceCardCard from './ServiceCardCard.vue'
 

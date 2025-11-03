@@ -33,9 +33,9 @@
 
 <script setup>
 import { useRoute, useRouter } from 'vue-router'
-import Maps from '@/assets/img/Maps.svg'
+import Maps from '../../../assets/img/Maps.svg'
 import ServiceInfoSection from '@/components/service/myServices/ServiceInfoSection.vue'
-import BaseIcon from '@/components/common/BaseIcon.vue'
+import BaseIcon from '../../../components/common/BaseIcon.vue'
 
 const route = useRoute()
 const router = useRouter()

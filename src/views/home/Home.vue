@@ -19,13 +19,13 @@
 import ProfileCard from '@/components/home/ProfileCard.vue'
 import RequestStatusCard from '@/components/home/RequestStatusCard.vue'
 import ServiceMenuGrid from '@/components/home/ServiceMenuGrid.vue'
-import avatarImg from '@/assets/img/avatar.svg'
-import serviceCardIcon from '@/assets/img/service-card.svg'
-import myServicesIcon from '@/assets/img/my-services.svg'
-import workCertIcon from '@/assets/img/work-cert.svg'
-import financialAffairsIcon from '@/assets/img/financial-affairs.svg'
-import myDocumentsIcon from '@/assets/img/my-documents.svg'
-import trafficPlanIcon from '@/assets/img/traffic-plan.svg'
+import avatarImg from '../../assets/img/avatar.svg'
+import serviceCardIcon from '../../assets/img/service-card.svg'
+import myServicesIcon from '../../assets/img/my-services.svg'
+import workCertIcon from '../../assets/img/work-cert.svg'
+import financialAffairsIcon from '../../assets/img/financial-affairs.svg'
+import myDocumentsIcon from '../../assets/img/my-documents.svg'
+import trafficPlanIcon from '../../assets/img/traffic-plan.svg'
 
 const user = {
   name: 'علی شریفی مقدم',
@@ -64,7 +64,7 @@ const menuItems = [
 .header-wrapper {
   min-height: 260px;
   background-color: #ab060a;
-  background-image: url('@/assets/img/Group.png');
+  background-image: url('../../assets/img/Group.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;

@@ -3,6 +3,6 @@
 </template>
 
 <script setup>
-import logo from '@/assets/img/logo.svg'
+import logo from '../../assets/img/logo.svg'
 import BaseIcon from '../common/BaseIcon.vue'
 </script>

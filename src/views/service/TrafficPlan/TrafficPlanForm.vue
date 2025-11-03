@@ -89,7 +89,7 @@ import BaseButton from '@/components/common/BaseButton.vue'
 import Vue3PersianDatetimePicker from 'vue3-persian-datetime-picker'
 import SuccessToast from '@/components/common/SuccessToast.vue'
 import BaseBottomSheet from '@/components/service/BaseBottomSheet.vue'
-import BaseIcon from '@/components/common/BaseIcon.vue'
+import BaseIcon from '../../../components/common/BaseIcon.vue'
 const toastVisible = ref(false)
 
 const dates = ref([''])

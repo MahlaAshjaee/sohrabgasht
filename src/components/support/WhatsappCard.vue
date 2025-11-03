@@ -12,7 +12,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import BaseIcon from '@/components/common/BaseIcon.vue'
+import BaseIcon from '../common/BaseIcon.vue'
 
 const phoneNumber = ref('---')
 

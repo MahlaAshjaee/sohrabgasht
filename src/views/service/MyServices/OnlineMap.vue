@@ -58,7 +58,7 @@
 import { useRoute, useRouter } from 'vue-router'
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 import ContactsSheet from '@/components/service/myServices/ContactsSheet.vue'
-import BaseIcon from '@/components/common/BaseIcon.vue'
+import BaseIcon from '../../../components/common/BaseIcon.vue'
 
 const route = useRoute()
 const router = useRouter()
@@ -113,15 +113,15 @@ const statusMessage = computed(() => {
 const mapSrc = computed(() => {
   switch (step.value) {
     case 1:
-      return new URL('@/assets/img/map-step1.svg', import.meta.url).href
+      return new URL('../assets/img/map-step1.svg', import.meta.url).href
     case 2:
-      return new URL('@/assets/img/map-step2.svg', import.meta.url).href
+      return new URL('../assets/img/map-step2.svg', import.meta.url).href
     case 3:
-      return new URL('@/assets/img/map-step3.svg', import.meta.url).href
+      return new URL('../assets/img/map-step3.svg', import.meta.url).href
     case 4:
-      return new URL('@/assets/img/map-step4.svg', import.meta.url).href
+      return new URL('../assets/img/map-step4.svg', import.meta.url).href
     default:
-      return new URL('@/assets/img/full-map.svg', import.meta.url).href
+      return new URL('../assets/img/full-map.svg', import.meta.url).href
   }
 })
 

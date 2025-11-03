@@ -64,10 +64,10 @@
 
 <script setup>
 import { ref, nextTick, watch } from 'vue'
-import BaseBottomSheet from '@/components/service/BaseBottomSheet.vue'
-import BaseButton from '@/components/common/BaseButton.vue'
+import BaseButton from '../common/BaseButton.vue'
 import Vue3PersianDatetimePicker from 'vue3-persian-datetime-picker'
-import BaseIcon from '@/components/common/BaseIcon.vue'
+import BaseIcon from '../common/BaseIcon.vue'
+import BaseBottomSheet from './BaseBottomSheet.vue'
 
 const props = defineProps({ visible: Boolean })
 const emits = defineEmits(['close', 'submit'])

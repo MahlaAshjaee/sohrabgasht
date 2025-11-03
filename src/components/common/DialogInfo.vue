@@ -22,7 +22,7 @@
 </template>
 
 <script setup>
-import BaseIcon from '@/components/common/BaseIcon.vue'
+import BaseIcon from './BaseField.vue'
 
 defineProps({
   visible: { type: Boolean, default: false },

@@ -36,7 +36,7 @@
 <script setup>
 import EmptyState from '@/components/service/EmptyState.vue'
 import TrafficPlanCard from './TrafficPlanCard.vue'
-import BaseIcon from '@/components/common/BaseIcon.vue'
+import BaseIcon from '../../../components/common/BaseIcon.vue'
 
 defineProps({
   loading: Boolean,

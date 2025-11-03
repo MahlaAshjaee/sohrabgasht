@@ -55,7 +55,7 @@ import { ref, onMounted } from 'vue'
 import DialogInfo from '@/components/common/DialogInfo.vue'
 import EmploymentCard from './EmploymentCard.vue'
 import DatePickerSheet from '@/components/service/DatePickerSheet.vue'
-import BaseIcon from '@/components/common/BaseIcon.vue'
+import BaseIcon from '../../common/BaseIcon.vue'
 
 const loading = ref(true)
 const requests = ref([])
